@@ -58,6 +58,59 @@ npm run build
 npm start
 ```
 
+## 🚀 Deploy to Vercel
+
+This app is optimized for Vercel deployment with zero configuration needed.
+
+### Option 1: Deploy via Vercel Dashboard (Recommended)
+
+1. **Push to GitHub:**
+   ```bash
+   git add .
+   git commit -m "Ready for deployment"
+   git push origin main
+   ```
+
+2. **Deploy on Vercel:**
+   - Go to [vercel.com](https://vercel.com) and sign up/login
+   - Click "New Project"
+   - Import your GitHub repository
+   - Vercel will auto-detect Next.js and configure everything
+   - Click "Deploy"
+
+3. **Your app will be live!** 
+   - Vercel provides a URL like `https://your-app-name.vercel.app`
+   - API endpoints work automatically at `https://your-app-name.vercel.app/api/*`
+
+### Option 2: Deploy via Vercel CLI
+
+1. **Install Vercel CLI:**
+   ```bash
+   npm i -g vercel
+   ```
+
+2. **Deploy from terminal:**
+   ```bash
+   vercel
+   ```
+
+3. **Follow the prompts:**
+   - Link to existing project or create new
+   - Configure project settings (or use defaults)
+   - Deploy!
+
+### Environment Variables (Optional)
+
+No environment variables are required for basic functionality. All configuration is built-in.
+
+### Custom Domain (Optional)
+
+After deployment, you can add a custom domain in your Vercel dashboard:
+1. Go to your project settings
+2. Click "Domains" 
+3. Add your custom domain
+4. Update your DNS records as instructed
+
 ## 💻 Web Interface Usage
 
 ### Generator Tab
